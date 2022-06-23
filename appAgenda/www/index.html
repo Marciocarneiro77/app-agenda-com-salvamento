@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Agenda</title>
+    <link rel="stylesheet" href="material-icon/material.css">
+    <link rel="stylesheet" href="materialize-css/dist/css/materialize.min.css">
+</head>
+
+<body class="pink lighten-5 pink-text lighten-1-text">
+    <div class="container">
+        <h3 class="center">Agenda de Contatos</h3>
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="text" id="nome">
+                <label for="nome">NOME</label>
+            </div>
+            <div class="input-field col s12">
+                <input type="tel" id="telefone">
+                <label for="telefone">TELEFONE</label>
+            </div>
+            <div class="row">
+                <button type="button" class="pink darken-3 waves-effect waves-light btn-large" id="salvar"><i
+                        class="material-icons left">save</i>SALVAR</button>
+            </div>
+            <ul id="lista-contatos"></ul>
+        </div>
+        <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>
